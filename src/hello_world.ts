@@ -10,18 +10,21 @@
 //     console.log(`Example app listening at http://localhost:${port}`)
 // })
 
-import express from "express";
-import path from "path";
+import express from "express"
+import path from "path"
+import cors from "cors"
 
 const app = express();
+app.use(cors())
 // app.set("views", path.join(__dirname, "views"));
 
-const port = 8080;
+const port = 4500;
 
 // define a route handler for the default home page
 app.get("/", (req, res) => {
     // render the index template
-    res.json({"asdf": "hello world!"});
+    console.log(req)
+    res.json({ "asdf": "hello world!" });
 });
 
 // start the express server

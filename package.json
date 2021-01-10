@@ -7,7 +7,13 @@
   "license": "MIT",
   "type": "module",
   "private": false,
+  "scripts": {
+    "serve": "node dist/hello_world.js",
+    "build": "npx tsc"
+  },
   "dependencies": {
+    "@types/cors": "^2.8.9",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {
