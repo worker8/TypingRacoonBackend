@@ -8,7 +8,8 @@
   "type": "module",
   "private": false,
   "scripts": {
-    "serve": "node dist/hello_world.js",
+    "start": "node dist/hello_world.js",
+    "postinstall": "npx tsc",
     "build": "npx tsc"
   },
   "dependencies": {
