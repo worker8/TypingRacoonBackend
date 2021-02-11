@@ -51,7 +51,7 @@ let raceList = [
     new Race("Serial Lain Experiments", "History is not merely a linear collection of points that we pass through on a timeline. They are connected by a line. No, perhaps it is more accurate to say that they are made to connect.", "https://www.amazon.com/gp/search?ie=UTF8&keywords=B00005NX1N&tag=typeracer-20&index=blended&linkCode=ur2&camp=1789&creative=9325"),
     new Race("A Random Walk Down Wall Street", "In another experiment involving students, respondents were asked about likely future outcomes for themselves and their roommates. They typically had very rosy views about their own futures, which they imagined to include successful careers, happy marriages, and good health. When asked to speculate about their roommates' futures, however, their responses were far more realistic.", "https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street"),
     new Race("Game of Thrones", "Alright, how about the fact that this is actually happening? You have your armies, you have your ships, you have your dragons... Everything you ever wanted, since you were old enough to want anything. It's all yours for the taking. Are you afraid? Good. You're in the Great Game now, and the Great Game is terrifying. The only people who aren't afraid of failure are madmen like your father.", "https://en.wikipedia.org/wiki/Game_of_Thrones"),
-    new Race("Dr Seuss", "You’re off to great places, today is your day. Your mountain is waiting, so get on your way.", "https://en.wikipedia.org/wiki/Dr._Seuss")
+    new Race("Dr Seuss", "You're off to great places, today is your day. Your mountain is waiting, so get on your way.", "https://en.wikipedia.org/wiki/Dr._Seuss")
     // new Race("", "", ""),
 ]
 const app = express();
